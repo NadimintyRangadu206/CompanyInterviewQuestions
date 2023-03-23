@@ -22,6 +22,9 @@ public class FormattedPayment {
 		Locale e;
 		String India = NumberFormat.getCurrencyInstance(new Locale("India")).format(payment);
 		System.out.println(India);
+		
+		
+		String japan=NumberFormat.getCurrencyInstance(Locale.JAPAN).format(payment);
 
 	}
 

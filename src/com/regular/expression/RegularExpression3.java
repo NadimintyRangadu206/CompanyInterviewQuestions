@@ -8,7 +8,7 @@ public class RegularExpression3 {
 	public static void main(String[] args) {
 		
 		Pattern p=Pattern.compile("(0?|91)[7-9][0-9]{9,}");
-		Matcher m=p.matcher("917555576575");
+		Matcher m=p.matcher("07555576575");
 		while (m.find()) {
 			System.out.print(m.group());
 		}

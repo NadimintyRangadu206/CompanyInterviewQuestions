@@ -29,7 +29,10 @@ public class LogicArray {
 
 			Character ch1 = (ch[i] != 'A' && ch[i] != 'E' && ch[i] != 'I' && ch[i] != 'O' && ch[i] != 'U'
 					&& ch[i] != 'a' && ch[i] != 'e' && ch[i] != 'i' && ch[i] != 'o' && ch[i] != 'u') ? ch[i] : '-';
-			System.out.println(ch1);
+
+			if(ch1!='-') {
+				System.out.print(ch1+" ");
+			}
 		}
 
 		

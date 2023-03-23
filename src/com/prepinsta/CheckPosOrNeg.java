@@ -29,6 +29,25 @@ public class CheckPosOrNeg {
 			String v = no >= 0 ? "Positive" : "Negative"; // using ternary Operator
 			System.out.println(v);
 		}
+		
+		
+		System.out.println();
+		
+		boolean flag = false;
+		
+		if(no==0) {
+			System.out.println("Zero");
+		}else
+		{
+			 flag=no>=0?true:false;
+		}
+		
+		if(flag==true) {
+			System.out.println("Positive");
+		}else {
+			System.out.println("Negative");
+		}
+	
 	}
 
 }
