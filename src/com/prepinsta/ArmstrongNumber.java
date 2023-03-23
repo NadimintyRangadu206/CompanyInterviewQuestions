@@ -25,7 +25,7 @@ public class ArmstrongNumber {
 		while(num1!=0) {
 			
 			r= num1%10;
-			sum=sum+r*r*r*r;
+			sum=sum+r*r*r;
 			num1=num1/10;
 		}
 		

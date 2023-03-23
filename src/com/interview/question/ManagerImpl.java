@@ -88,7 +88,7 @@ public class ManagerImpl implements ManagerFunc {
 				System.out.println("Pay the Money" + "\n" + charge);
 			} else {
 				if (i > 31 && i <= 60) {
-					charge++;
+					charge+=10;
 					System.out.println("Extra Amount pay the Customer+" + "\n" + charge);
 				}
 			}

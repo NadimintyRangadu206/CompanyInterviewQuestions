@@ -24,6 +24,7 @@ public class PrimeNumber {
 		}
 
 		for (int i = 1; i <= no; i++) {
+
 			if (no % i == 0) {
 				count += 1;
 			}

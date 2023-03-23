@@ -13,7 +13,7 @@ public class RegularExpression2 {
 		Matcher m = p.matcher(str);
 		
 		while(m.find()) {
-			System.out.print(m.group(2));
+			System.out.print(m.group());
 		}
 
 	}

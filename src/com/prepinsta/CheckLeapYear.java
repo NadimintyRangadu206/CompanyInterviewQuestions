@@ -28,7 +28,8 @@ public class CheckLeapYear {
 		
 		 
 		int flag;	                                                //Method-3
-		flag=(year%400==0) ||(year%4==0 && year%100!=0)?1:0;   // Ternary Operator	
+		flag=(year%400==0) ||(year%4==0 && year%100!=0)?1:0;   // Ternary Operator
+		
 		if(flag==1) {
 			System.out.println("Leap Year");
 		}else {
